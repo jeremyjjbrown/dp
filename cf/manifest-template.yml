@@ -1,0 +1,10 @@
+---
+applications:
+- name: ecgcp-pubsubdemo${appHostSuffix}
+  path: ${build.artifactPath}
+  buildpacks:
+  - java_buildpack_offline
+  memory: 1G
+  instances: ${appInstances}
+  env:
+    JAVA_OPTS: -Dlogging.level.org.springframework.web=${logLevel}

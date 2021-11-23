@@ -1,0 +1,4 @@
+providers:
+  cf:
+    org: ec_gcptech_migration_gcp-us-central_preprod
+    space: ec_gcptech_migration-dev

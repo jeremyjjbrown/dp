@@ -1,0 +1,13 @@
+appName: sample-app
+configVersion: 0.1
+
+# Optional
+providers:
+  cf:
+    api: https://api.sys.pp01.uscentral1.cf.gcp.ford.com
+    path: 
+      - file://cf/
+  terraform:
+    - path: file://terraform/
+    - vars: file://terraform-vars/
+  helm:
