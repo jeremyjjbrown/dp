@@ -1,0 +1,12 @@
+# these can be overridden if a project wants alternate paths.
+providers:
+  cf:
+    path: cf/manifest.yml
+    templatePath: cf/manifest-template.yml
+    varsPath: cf/manifest-template-settings.yml
+  terraform:
+    path: terraform/
+    vars: infra-vars/
+  helm:
+    path: helm
+    values: helm/values.yaml

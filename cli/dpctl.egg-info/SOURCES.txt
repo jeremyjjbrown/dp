@@ -1,0 +1,12 @@
+setup.py
+dpctl/__init__.py
+dpctl/cli.py
+dpctl/config.py
+dpctl.egg-info/PKG-INFO
+dpctl.egg-info/SOURCES.txt
+dpctl.egg-info/dependency_links.txt
+dpctl.egg-info/requires.txt
+dpctl.egg-info/top_level.txt
+dpctl/defaults/__init__.py
+dpctl/test/__init__.py
+dpctl/test/test_config.py
